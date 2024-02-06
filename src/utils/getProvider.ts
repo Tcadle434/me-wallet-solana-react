@@ -34,8 +34,8 @@ export const useMagicEdenProvider = (): MagicEdenProvider | undefined => {
 
     const timeout = setTimeout(() => {
       if (!found) {
-        // redirect to download extension if they don't have it installed
-        window.location.href = 'https://chromewebstore.google.com/detail/magic-eden-wallet/mkpegjkblkkefacfnmkajcjmabijhclg'
+        // redirect to website to download the wallet extension
+        window.location.href = 'https://wallet.magiceden.io/'
         clearInterval(interval);
       }
     }, TIMEOUT_MS);
