@@ -1,5 +1,9 @@
+# ME Solana Wallet Demo.
 
+This example demonstrates how a dApp can discover and communicate with the Solana network directly (not using any wallet adapters)
 
+Install the dependencies with `npm install`.
 
-https://github.com/Tcadle434/me-wallet-solana-react/assets/17454212/40ece6fc-6dc8-4530-9ace-5ccced4bf0d3
+Run the app with `npm start`
+
 
